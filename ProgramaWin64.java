@@ -39,6 +39,6 @@ public static void rodarProcesso(String nome ) {
    }
    ;
 
-   .start();
-   .start();
+   p1.start();
+   p2.start();
                                              
