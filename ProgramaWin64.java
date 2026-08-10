@@ -30,8 +30,8 @@ public static void rodarProcesso(String nome ) {
     Thread p1 = new Thread(new Runnable() { 
    public void run() { 
    rodarProcesso("Processo_A);
-   }
-    ;);
+   });
+  
 
  Thread p2 = newThread(new Runnable() {
    public void run() { 
