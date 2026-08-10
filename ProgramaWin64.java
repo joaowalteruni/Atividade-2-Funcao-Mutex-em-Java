@@ -31,14 +31,16 @@ public static void rodarProcesso(String nome ) {
    public void run() { 
    rodarProcesso("Processo_A);
    }
-    ;
+    ;);
 
  Thread p2 = newThread(new Runnable() {
    public void run() { 
      rodarProcesso(Processo_B);
-   }
-   ;
+   });
+   
 
    p1.start();
    p2.start();
-                                             
+
+ }
+}
