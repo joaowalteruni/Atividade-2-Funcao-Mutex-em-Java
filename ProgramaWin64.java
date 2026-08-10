@@ -27,13 +27,13 @@ public static void rodarProcesso(String nome ) {
 
   public static void main(String[] args)
 
-    read p1 = new Thread(new Runnable() { 
+    Thread p1 = new Thread(new Runnable() { 
    public void run() { 
    rodarProcesso("Processo_A);
    }
     ;
 
- read p2 = newThread(new Runnable() {
+ Thread p2 = newThread(new Runnable() {
    public void run() { 
      rodarProcesso(Processo_B);
    }
