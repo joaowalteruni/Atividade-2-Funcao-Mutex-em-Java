@@ -29,7 +29,7 @@ public static void rodarProcesso(String nome ) {
 
     read p1 = new Thread(new Runnable() { 
    public void run() { 
-   rodar processo("Processo_A);
+   rodarProcesso("Processo_A);
    }
     ;
 
