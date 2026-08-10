@@ -24,6 +24,7 @@ public static void rodarProcesso(String nome ) {
 
   travado = 0;
   System.out.println("<-- [" + nome + "] saiu da seção critica");
+}
 
   public static void main(String[] args)
 
